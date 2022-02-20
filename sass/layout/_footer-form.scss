@@ -24,39 +24,23 @@
     border-color: var(--accent-color);
   }
 }
-
-  
+  .footer-form__icon {
+    margin-left: 10px;
+  }
   .footer-form__button {
     min-width: 200px;
     height: 50px;
+    display: flex;
   
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 29px;
     padding-right: 28px;
-    border: transparent;
-    background: var(--accent-color);
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    border-radius: 4px;
-    cursor: pointer;
-  
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 1.87;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    letter-spacing: 0.06em;
-    color: var(--additional-color);
-  
+    
     transition-property: background-color, box-shadow, box-shadow;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     &:focus {
       background-color: #188ce8;
       box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);}
-  }
-  
-  .footer-form__icon {
-    margin-left: 10px;
   }
