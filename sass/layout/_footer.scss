@@ -1,0 +1,100 @@
+.footer {
+    background-color: var(--backfound-footer-color);
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+
+  .footer__container {
+    display: flex;
+    align-items: baseline;
+  }
+
+  .footer .logo {
+    margin-bottom: 20px;
+    margin-right: 0;
+  }
+  
+  .address {
+    font-style: normal;
+    margin-bottom: 9px;
+  }
+  
+  .adress--color {
+    color: var(--additional-color);
+  }
+  
+  .address-list__link:not(:last-child) {
+    display: block;
+    margin-bottom: 9px;
+  }
+  
+  .address-list__link{
+    display: block;
+    font-family: inherit;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-delay: 0s;
+    &:hover,
+    &:focus {
+      color: var(--accent-color);}
+  }
+  
+  
+  .footer__address{
+    margin-right: 70px;
+    flex-grow: 1;
+  }
+  .footer-section +.footer-section{
+    margin-left: 93px;
+
+  }
+
+  .footer-section__text {
+    display: block;
+    margin-bottom: 20px;
+  
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--additional-color);
+  }
+  
+  .footer-social-list {
+    display: flex;
+    justify-content: center;
+  }
+  .footer-social-list__item + .footer-social-list__item {
+    margin-left: 10px;
+  }
+  
+  .footer-social-list__link {
+    width: 44px;
+    height: 44px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--additional-color);
+    transition-property: color, background-color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-delay: 0s;
+    &:hover,
+    &:focus {
+    background-color: var(--accent-color);
+    color: var(--additional-color);
+  }
+  }
+  .footer-social-list__icon {
+    fill: currentColor;
+  }
+  
+  
