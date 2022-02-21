@@ -26,10 +26,7 @@
         1px 4px 6px rgba(0, 0, 0, 0.16);}
   }
   
-  .gallery-list__link:hover .gallery-list--top-text,
-  .gallery-list__link:focus .gallery-list--top-text {
-    transform: translateY(0);
-  }
+  
   
   .gallery-list--top-text{
     position: absolute;
@@ -46,10 +43,16 @@
     color: var(--additional-color);
     background-color: rgba(33, 150, 243, 0.9);
     height: 100%;
+    
     transform: translateY(100%);
     transition-property: transform;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+    .gallery-list__link:hover & ,
+    .gallery-list__link:focus & {
+      transform: translateY(0);
+    }
   }
   
   .gallery-list__text {

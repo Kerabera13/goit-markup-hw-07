@@ -77,20 +77,20 @@
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: #757575;
-    display: flex;
-    align-items: center;
+    @extend %align-list;
     justify-content: center;
   }
-  .form-checkbox__text span {
+  .form-checkbox__text  { 
+    span{
     width: 16px;
     height: 16px;
     border: 2px solid #212121;
     border-radius: 2px;
     margin-right: 9px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    @extend %align-list;
+    justify-content: center;}
   }
+  
   .form-checkbox__icon {
     fill: transparent;
   }

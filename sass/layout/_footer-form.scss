@@ -1,11 +1,8 @@
 .footer-form {
-    display: flex;
+    @extend %align-list;
     justify-content: space-between;
-    align-items: center;
   }
-  .footer-form__email + .footer-form__button {
-    margin-left: 12px;
-  }
+  
   .footer-form__email {
     min-width: 358px;
     height: 50px;
@@ -28,6 +25,7 @@
     margin-left: 10px;
   }
   .footer-form__button {
+    margin-left: 12px;
     min-width: 200px;
     height: 50px;
     display: flex;

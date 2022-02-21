@@ -36,7 +36,6 @@
   }
   
  
-  
-  .portfolio-filter__item + .portfolio-filter__item {
-    margin-left: 8px;
-  }
+  .portfolio-filter__item{
+    &+& {margin-left: 8px;}
+    }

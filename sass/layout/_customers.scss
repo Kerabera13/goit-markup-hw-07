@@ -5,9 +5,8 @@
   .customers__link {
     border: 1px solid rgba(175, 177, 184, 1);
     border-radius: 4px;
+    @extend %align-list;
     justify-content: center;
-    align-items: center;
-    display: flex;
     fill: #afb1b8;
     width: 170px;
     height: 92px;
@@ -22,9 +21,10 @@
   }
   
   
-  .customers__item + .customers__item {
+  .customers__item {
+    &+& {
     margin-left: 30px;
-  }
+  }}
   
   .customers__list {
     display: flex;

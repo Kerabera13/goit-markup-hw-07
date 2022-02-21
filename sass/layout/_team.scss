@@ -70,6 +70,6 @@
   color: var(--additional-color);}
   }
 
-.social-list__item + .social-list__item{
-  margin-left: 10px;
-}
+.social-list__item{
+  &+&{ margin-left: 10px;}
+ }
