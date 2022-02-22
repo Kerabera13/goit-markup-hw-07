@@ -92,6 +92,7 @@
     letter-spacing: 0.02em;
     color: var(--contact-color);
     fill: var(--contact-color);
+    @extend %align-list;
   
     transition-property: color;
     transition-duration: 250ms;
@@ -100,7 +101,7 @@
     &:focus {
     color: var(--accent-color);
     fill: currentColor;
-    @extend %align-list;
+   
   }
 }
   

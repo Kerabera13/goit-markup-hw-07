@@ -105,7 +105,7 @@ body {
   text-transform: uppercase;
 }
 
-.header__container, .navigation, .contacts, .contacts__link:hover, .contacts__link:focus, .advantages__borber, .works__text, .footer-social-list__link, .footer-form, .form-checkbox__text, .form-checkbox__text span {
+.header__container, .navigation, .contacts, .contacts__link, .advantages__borber, .works__text, .footer-social-list__link, .footer-form, .form-checkbox__text, .form-checkbox__text span {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
