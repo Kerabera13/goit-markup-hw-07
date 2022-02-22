@@ -1,15 +1,21 @@
-.customers__tittle {
-    margin-bottom: 50px;
+  .customers__tittle {
+  margin-bottom: 50px;
   }
   
-  .customers__link {
+    .customers {display: flex;
+    align-items: center;}
+    
+    .customers__link{
     border: 1px solid rgba(175, 177, 184, 1);
     border-radius: 4px;
-    @extend %align-list;
+
+    display: flex;
+    align-items: center;
     justify-content: center;
-    fill: #afb1b8;
+    
     width: 170px;
     height: 92px;
+    fill: #afb1b8;
   
     transition-property: border-color, fill;
     transition-duration: 250ms;
@@ -23,10 +29,7 @@
   
   .customers__item {
     &+& {
-    margin-left: 30px;
-  }}
-  
-  .customers__list {
-    display: flex;
-    justify-content: center;
+    margin-left: 30px;}
   }
+  
+  

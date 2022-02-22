@@ -7,6 +7,10 @@
 @extend %align-list;
     }
 
+    .header__container .logo {
+      margin-right: 93px;
+    }
+
   .navigation  {
  @extend %align-list;
   }

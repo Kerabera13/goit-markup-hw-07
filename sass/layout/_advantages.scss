@@ -1,4 +1,4 @@
-.advantages__list {
+.advantages {
     display: flex;
   }
  
@@ -18,7 +18,7 @@
     @extend %align-list;
   }
   
-  .advantages__subtitle {
+  .advantages__title {
     margin-bottom: 10px;
   
     color: var(--title-text-color);
